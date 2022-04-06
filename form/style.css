@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;600&display=swap');
+
+img{
+  width: 12em;
+margin: auto;
+display: block;
+margin-bottom: 4em;
+}
+
+fieldset{
+   border: none;
+   text-align: left;
+}
+
+body {
+    background: #0c58be;
+    background-size: cover;
+    height: 100vh;
+    color: #2A293E;
+    max-width: 700px;
+    margin: auto;
+    padding: 1em;
+    padding-top: 2em;
+}
+
+
+main{
+  background: white;
+  padding: 2em;
+  border-radius:5px;
+}
+
+.progress-container {
+  width: 100%;
+      height: 8px;
+      background: #f2cd40;
+      position: fixed;
+      top: 0;
+      left: 0;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #ec7404;
+  width: 0%;
+}
+
+.contact-us {
+  background: #f8f4e5;
+  padding: 50px 100px;
+  border-top: 10px solid #f45702;
+}
+
+label, input, textarea {
+  font-size: 15px;
+  line-height: 24pt;
+}
+
+input {
+  margin-bottom: 24pt;
+}
+
+h3 {
+  font-size: 15px;
+  line-height: 24pt;
+  margin: 0 0 0.5em 0;
+}
+
+span {
+  font-size: 8pt;
+}
+
+em {
+  color: #f45702;
+  font-weight: bold;
+}
+
+input, textarea {
+  border: none;
+  border-radius: 6px;
+  background: #b1b1b12b;
+  padding-left: 5px;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #ec7404;
+}
+
+textarea {
+  resize: none;
+}
+
+.button {
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #f45702;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  background: #ec7404;
+  border-radius: 25px;
+}
+.button:hover {
+  border-bottom: 2px solid #f45702;
+  opacity:60%;
+  cursor: pointer;
+}
+
+::selection {
+  background: #ffc7b8;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #6bd4b1;
+  -webkit-text-fill-color: #2A293E;
+  -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type="radio"]:checked:after{
+  -webkit-appearance:radio;
+  background-color: #ec7404;
+  border: 2px solid #ec7404;
+}
+input[type="radio"]:after{
+  -webkit-appearance:radio;
+  background-color: #ec7404;
+  border: 2px solid #ec7404;
+}
+
+input[type="radio"]:checked+label {
+  -webkit-appearance:radio;
+  background-color: #ec7404;
+  border: 2px solid #ec7404;
+  }
+
+body .form-group {
+  margin: auto;
+  font-family: 'Epilogue', sans-serif;
+}
